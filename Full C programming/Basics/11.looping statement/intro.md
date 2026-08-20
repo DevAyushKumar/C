@@ -14,3 +14,13 @@ Types of loop:
 
 3. Do while loop:
 -> When the number of iteration is not known and we have to execute loop atleast once. 
+
+While:
+-> Check condition at the beginning.
+-> No execution gurantee
+-> No need to put semicolon (;) at the end of the loop
+
+do-while:
+-> Check condition at the end of loop body.
+-> At least once
+-> Compulsory at put semicolon (;) at the end of the loop
