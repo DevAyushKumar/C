@@ -9,3 +9,15 @@ Decision making statement:
 
 A) If statement
 -> The if statement executes a block of code only is a specified condition is true.
+
+B) if-else statement:
+-> The if-else statement is an extension of if-statement, which uses another block of code i.e else block.
+
+C) if-else-if statement:
+-> It contains if statement followed by chain of if-else statement and only one block amoung serveral blocks will execute.
+
+D) Nested if statement:
+-> The if statement can contain a if or if-else statement inside another if or else if statement.
+
+E) Switch statement:
+-> Switch statement contains multiple blocks of code called cases and a single case is executed at a time based on expression.
