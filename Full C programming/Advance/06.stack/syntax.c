@@ -1,4 +1,7 @@
 #include <stdio.h>
+#define MAX_SIZE 3
+int stack[MAX_SIZE];
+int top = -1, rear = -1;
 
 //main function
 int main(){
