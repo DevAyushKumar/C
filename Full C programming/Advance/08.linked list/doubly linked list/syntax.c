@@ -72,7 +72,7 @@ void insertion_beginning()
     }
     else
     {
-        printf("\nEnter Item value");
+        printf("\nEnter Item value: ");
         scanf("%d", &item);
         if (head == NULL)
         {
@@ -105,7 +105,7 @@ void insertion_last()
     }
     else
     {
-        printf("\nEnter value");
+        printf("\nEnter value: ");
         scanf("%d", &item);
         ptr->data = item;
         if (head == NULL)
@@ -140,7 +140,7 @@ void insertion_specified()
     }
     else
     {
-        printf("Enter the value");
+        printf("Enter the value: ");
         scanf("%d", &item);
 
         ptr->data = item;
@@ -184,7 +184,7 @@ void deletion_beginning()
         head->prev = NULL;
         free(ptr);
 
-        printf("\nnode deleted\n");
+        printf("\n node deleted\n");
     }
 }
 void deletion_last()
